@@ -2,6 +2,6 @@
 
 def position_taken?(board, x)
 
-  board(x).eq("")
+  board[x].eq(" ")
 
 end
